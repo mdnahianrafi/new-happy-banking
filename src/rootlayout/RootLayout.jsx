@@ -7,7 +7,7 @@ const RootLayout = () => {
   return (
     <div>
     
-      <main>
+      <main >
         <Outlet /> {/* Renders child routes */}
        
       </main>
