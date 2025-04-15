@@ -6,6 +6,7 @@ import Image from "../components/Image";
 import Logo from "../assets/logo.svg";
 import StickyNav from "../components/StickyNav";
 
+
 const HomePage = () => {
   return (
     <div className="container mx-auto">
@@ -13,7 +14,7 @@ const HomePage = () => {
         <MobileContainer>
           <Image imgSrc={Logo} imgAlt="logo.png " className="px-16 py-3" />
           <LoginForm />
-          <StickyNav />
+        <StickyNav/>
         </MobileContainer>
       </div>
     </div>
