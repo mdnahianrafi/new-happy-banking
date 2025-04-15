@@ -20,7 +20,7 @@ const RegisterPage = () => {
     console.log("Form submitted with genter : ", gender);
   };
   return (
-    <div className="container mx-auto">
+    <div className="container mx-auto ">
       <div className="flex justify-center">
         <MobileContainer>
           <Image imgSrc={Logo} imgAlt="logo.svg" className="px-16 py-3" />

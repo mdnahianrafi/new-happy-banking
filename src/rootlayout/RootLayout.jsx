@@ -7,7 +7,7 @@ const RootLayout = () => {
   return (
     <div>
     
-      <main >
+      <main className='mt-10' >
         <Outlet /> {/* Renders child routes */}
        
       </main>

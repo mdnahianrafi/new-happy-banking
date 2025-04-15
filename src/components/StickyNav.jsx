@@ -6,7 +6,7 @@ import { Link } from 'react-router-dom';
 
 const StickyNav = () => {
   return (
-    <div className="fixed bottom-0 w-full bg-white text-white p-4 z-50">
+    <div className="fixed bottom-0 w-full md:absolute md:bottom-0 bg-white text-white p-4 z-50">
       <nav>
         <ul className="flex justify-around text-black">
           <li>
@@ -16,7 +16,7 @@ const StickyNav = () => {
             </Link>
           </li>
           <li>
-            <Link to="/login">
+            <Link to="/">
               <LuLogIn className="text-base mx-auto font-extrabold" />
               <p className="text-sm leading-5">Login</p>
             </Link>
