@@ -127,8 +127,9 @@ const RegisterPage = () => {
                                                       
             </form>
           </div>
-          <StickyNav />
+        
         </MobileContainer>
+        <StickyNav className="md:top-[89%] lg:top-[78%] xl:top-[68%]  2xl:top-[52%] h-14 md:w-[356px] screen-3xl-custom" />
       </div>
     </div>
   );

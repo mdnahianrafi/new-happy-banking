@@ -8,3 +8,11 @@
 .primaryColor{
   color:#F7961D;
 }
+
+
+/* ✅ Custom media query */
+@media (min-width: 1875px) {
+  .screen-3xl-custom {
+top:67%;
+  }
+}

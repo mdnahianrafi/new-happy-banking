@@ -4,9 +4,9 @@ import { LuLogIn } from 'react-icons/lu';
 import { FaUserPlus, FaBook } from 'react-icons/fa';
 import { Link } from 'react-router-dom';
 
-const StickyNav = () => {
+const StickyNav = ({className}) => {
   return (
-    <div className="fixed bottom-0 w-full md:absolute md:bottom-0 bg-white text-white p-4 z-50">
+    <div className={`fixed bottom-0 w-full  bg-white text-white p-4 z-50 ${className}`}>
       <nav>
         <ul className="flex justify-around text-black">
           <li>
