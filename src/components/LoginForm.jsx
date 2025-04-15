@@ -123,7 +123,7 @@ else{
             className="my-5 py-[14px] w-full bg-[#F7961D] text-white font-semibold rounded-lg cursor-pointer"
           >
           <Link to='/dashboard'>
-          Login
+            Login
           </Link>
           </button>
         </div>
