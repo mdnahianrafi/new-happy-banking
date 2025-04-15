@@ -1,0 +1,10 @@
+@import "tailwindcss";
+
+.scrollbar-w{
+    scrollbar-width: none;
+}
+
+
+.primaryColor{
+  color:#F7961D;
+}
