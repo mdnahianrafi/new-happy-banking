@@ -10,6 +10,7 @@ import {
   } from 'react-icons/fa';
   import { MdLogin } from 'react-icons/md';
 import { useNavigate } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 
 
 const LoginForm = ({setUser}) => {
@@ -109,12 +110,10 @@ else{
               Remember me
             </label>
           </div>
-          <a
-            onClick={() => navigate('/forgot-password')}
-            className="cursor-pointer"
-          >
-            <h3 className="text-[#F7961D]">Forgot Password?</h3>
-          </a>
+          <Link to="/reset-password">
+          <h3 className="text-[#F7961D]">Forgot Password?</h3>
+          </Link>
+
         </div> 
 
 
