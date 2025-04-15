@@ -17,25 +17,25 @@ const DashboardStickyNav = ({className}) => {
           </Link>
         </li>
         <li>
-          <Link to="/">
+          <Link to="/dashboard">
             <FaMobileAlt className="text-base mx-auto font-extrabold" />
             <p className="text-sm leading-5">MFS</p>
           </Link>
         </li>
         <li>
-          <Link to="/">
+          <Link to="/dashboard">
             <AiTwotoneBank className="text-base mx-auto font-extrabold" />
             <p className="text-sm leading-5">Bank</p>
           </Link>
         </li>
         <li>
-          <Link to="/blog">
+          <Link to="/dashboard">
             <FaRegCreditCard className="text-base mx-auto font-extrabold" />
             <p className="text-sm leading-5">Card</p>
           </Link>
         </li>
         <li>
-          <Link to="/contact">
+          <Link to="/dashboard">
             <FaUser className="text-base mx-auto font-extrabold" />
             <p className="text-sm leading-5">Contact</p>
           </Link>
