@@ -14,7 +14,10 @@ const HomePage = () => {
         <MobileContainer>
           <Image imgSrc={Logo} imgAlt="logo.png " className="px-16 py-3" />
           <LoginForm />
-        <StickyNav/>
+     
+
+          <StickyNav className="md:top-[89%] lg:top-[78%] xl:top-[68%]  2xl:top-[52%] h-14 md:w-[356px] screen-3xl-custom" />
+     
         </MobileContainer>
       </div>
     </div>
