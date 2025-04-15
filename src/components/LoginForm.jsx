@@ -122,7 +122,9 @@ else{
             onClick={handleLogin}
             className="my-5 py-[14px] w-full bg-[#F7961D] text-white font-semibold rounded-lg cursor-pointer"
           >
-            Login
+          <Link to='/dashboard'>
+          Login
+          </Link>
           </button>
         </div>
         <div className="flex justify-center">
